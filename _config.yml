@@ -1,0 +1,55 @@
+# Jekyll configuration
+
+name: Strangeryf's Blog
+description: 观天之道，执天之行，尽矣
+
+# Url is currently only used only for the RSS feed in feed.xml
+url: http://strangeryf.github.io
+
+# For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
+baseurl: ''
+
+author: strangeryf
+copyright: 2016-2018
+
+share:
+  facebook: true
+  twitter: true
+  gplus: true
+  linkedin: true
+  pinterest: true
+  email: true
+
+social:
+  github: strangeryf
+  stackoverflow: ''
+  linkedin: 
+  instagram: ''
+  lastfm: ''
+  rss: feed.xml
+
+# Google Analytics key, leave blank to ignore
+google_analytics_key:
+# Yandex metrica (https://metrica.yandex.com/) leave blank to ignore or put true to use
+yandex_metrica:
+
+
+# Set this to your disqus shortname to enable comments. Note that the 'comments'
+# setting below must also be true. Individual posts can override 'comments' to
+# disable on a post-by-post basis
+disqus: strangeryf
+comments: false
+
+permalink: /:year/:month/:title
+
+# Enable for using pages, more details are here: http://jekyllrb.com/docs/pagination/
+#paginate: 3
+
+#highlighter: rouge
+
+markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: true
+
+exclude: ['README.md', 'LICENSE']
