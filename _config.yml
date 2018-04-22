@@ -1,6 +1,6 @@
 # Jekyll configuration
 
-name: Strangeryf's Blog
+name: Strangeryf's Home
 description: 观天之道，执天之行，尽矣
 
 # Url is currently only used only for the RSS feed in feed.xml
@@ -38,12 +38,12 @@ yandex_metrica:
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
 disqus: strangeryf
-comments: false
+comments: true
 
 permalink: /:year/:month/:title
 
 # Enable for using pages, more details are here: http://jekyllrb.com/docs/pagination/
-#paginate: 3
+paginate: 10
 
 #highlighter: rouge
 
@@ -53,3 +53,5 @@ kramdown:
   hard_wrap: true
 
 exclude: ['README.md', 'LICENSE']
+
+plugins: ['jekyll-paginate']

@@ -4,5 +4,6 @@ title: About
 
 ---
 
-# Some info 
-...about how cool you are ;)
+# Research Interests
+Web development
+Hexagram

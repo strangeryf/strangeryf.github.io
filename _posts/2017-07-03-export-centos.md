@@ -2,7 +2,7 @@
 layout: post
 title:  "临时导出无法启动的CentOS系统中的文件"
 date:   2017-07-03 11:51:38 +0800
-categories: jekyll update
+tags: CentOS
 ---
 前些天发现a.b.c.d服务器无法启动，开机报如下错误
 {% highlight shell %}
