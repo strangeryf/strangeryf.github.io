@@ -55,3 +55,7 @@ kramdown:
 exclude: ['README.md', 'LICENSE']
 
 plugins: ['jekyll-paginate']
+
+tag_page_layout: tag_index
+
+tag_page_dir: tag
