@@ -2,7 +2,7 @@
 layout: post
 title:  "Remove the annoying apploc.tmp"
 date:   2009-02-15
-tags: C#
+tags: CSharp
 ---
 I used MS AppLocale to play some game in other languages. After running it, there will be an apploc.tmp file, which causes MS installer to generate unrecognizable characters in future installation. To my supprise, MS AppLocale does not provide a mechanism to remove that file, and I decide to devise my own program to remove it.
 

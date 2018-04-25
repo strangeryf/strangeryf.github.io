@@ -2,7 +2,7 @@
 layout: post
 title:  "Stringification"
 date:   2007-07-26
-tags: c
+tags: C
 ---
 ref: https://gcc.gnu.org/onlinedocs/gcc-3.4.3/cpp/Stringification.html
 ```c
